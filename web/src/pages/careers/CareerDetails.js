@@ -10,7 +10,10 @@ export default function CareerDetails() {
       <p>Starting salary: {career.salary}</p>
       <p>Location: {career.location}</p>
       <div className="details">
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta sed sunt ipsam quam assumenda quasi ipsa facilis laborum rerum voluptatem!</p>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta sed
+          sunt ipsam quam assumenda quasi ipsa facilis laborum rerum voluptatem!
+        </p>
       </div>
     </div>
   )

@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react'
 
 // const Navbar = () => (
 //   <div>
@@ -10,10 +10,10 @@ import React from "react";
 
 function Navbar() {
   return (
-    <div className="" style={{ backgroundColor: "#558139" }}>
+    <div className="" style={{ backgroundColor: '#558139' }}>
       <nav
         className="container navbar navbar-expand-lg"
-        style={{ backgroundColor: "#558139" }}
+        style={{ backgroundColor: '#558139' }}
         data-bs-theme="dark"
       >
         <div className="container-fluid">
@@ -93,6 +93,6 @@ function Navbar() {
         </div>
       </nav>
     </div>
-  );
+  )
 }
-export default Navbar;
+export default Navbar

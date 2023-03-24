@@ -1,4 +1,4 @@
-import { Link, useRouteError } from "react-router-dom"
+import { Link, useRouteError } from 'react-router-dom'
 
 export default function CareersError() {
   const error = useRouteError()

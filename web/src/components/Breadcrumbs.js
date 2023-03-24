@@ -1,13 +1,14 @@
-import { useLocation, Link } from "react-router-dom"
+import { useLocation, Link } from 'react-router-dom'
 
 export default function Breadcrumbs() {
   const location = useLocation()
 
   let currentLink = ''
 
-  const crumbs = location.pathname.split('/')
-    .filter(crumb => crumb !== '')
-    .map(crumb => {
+  const crumbs = location.pathname
+    .split('/')
+    .filter((crumb) => crumb !== '')
+    .map((crumb) => {
       currentLink += `/${crumb}`
 
       return (
@@ -17,9 +18,5 @@ export default function Breadcrumbs() {
       )
     })
 
-  return (
-    <div className="breadcrumbs">
-      {crumbs}
-    </div>
-  )
+  return <div className="breadcrumbs">{crumbs}</div>
 }
