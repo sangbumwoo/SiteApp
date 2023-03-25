@@ -1,6 +1,8 @@
-import { Outlet, NavLink, Link, ScrollRestoration } from 'react-router-dom'
-import logo from '../images/mlrn_logo.png'
 import { useSelector } from 'react-redux'
+import {
+  Outlet, NavLink, Link, ScrollRestoration
+} from 'react-router-dom'
+import logo from '../images/mlrn_logo.png'
 
 export default function RootLayout() {
   const menus = useSelector((state) => state.menu.list)
@@ -18,7 +20,7 @@ export default function RootLayout() {
             </div>
           </div>
           <Link className="navbar-brand" to="/">
-            <img src={logo} height="70" alt="logo" />
+            <img src={logo} height="60" alt="logo" />
           </Link>
         </div>
         <nav

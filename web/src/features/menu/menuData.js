@@ -19,6 +19,15 @@ const menuData = [
   },
   {
     id: uuid(),
+    name: 'settings',
+    menus: [
+      { id: uuid(), name: 'main banner', menus: [] },
+      { id: uuid(), name: 'link banner', menus: [] },
+      { id: uuid(), name: 'related links', menus: [] },
+    ],
+  },
+  {
+    id: uuid(),
     name: 'home',
   },
   {

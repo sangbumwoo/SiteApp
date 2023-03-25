@@ -23,6 +23,7 @@
         "react/jsx-uses-react": "off",
         "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx", ".ts", ".tsx"] }],
         "semi": [1, "never"],
+        "jsx-a11y/label-has-associated-control": "off",
         "no-console": ["warn", { "allow": ["error"] }]
     }
 }
